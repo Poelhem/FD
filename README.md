@@ -1,6 +1,6 @@
 # Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat sheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -11,6 +11,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Jij
+
+<details open>
+  <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
   Maeve Poelhekke
@@ -33,17 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  <link>https://twix.nl/</link>
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home
-  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/sstwixhome.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Historie 
-  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/sstwixhistorie.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -90,13 +91,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets2.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets3" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownschets4" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -116,11 +118,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Maeve      | Nienke          | Tess   | Thijs       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Is de sectie 'onze producten' en 'history' een unorderd list of allemaal secties binnen de sectie?  | Verschillende stukken code wordt gezien als link dat doorlinkt naar mijn andere html pagina, in de code kunnen we dit niet vinden             | Moet ik de agenda en de filterfunctie werkend krijgen en zo niet hoe moet ik dit laten zien?   | en dan ik dat    |
+  | en dat ook nog | Is de introductie afbeelding en h1 nog een stuk van de header of niet? | nog een punt | dit wil ik zeker |
+  | ...            | Kan een h2 boven een h1 in de html omdat de h1 belangrijker is maar visueel wel onderin staat?                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -224,7 +226,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
