@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/sstwixhome.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/sstwixhome.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/sstwixhistorie.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/sstwixhistorie.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -91,14 +91,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
-  <img src="readme-images/breakdownschets2.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets2.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschets3" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets3.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/breakdownschets4" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownschets4.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -112,8 +112,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Goed opweg met de code, nu verder de html afschrijven. HTML schrijven ging goed, had moeite met de de nav maar heeft Jeffrey mij mee kunnen helpen. Verder een paar kleine puntjes die ik moest aanpassen, code was verder goed. Was als laatste dus hadden helaas een beetje kort de tijd maar hebben de breakdownschetsen door kunnen nemen en de code ook.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -128,10 +127,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Was als laatste dus hadden helaas een beetje kort de tijd maar hebben de breakdownschetsen door kunnen nemen en de code ook.
+  - Had problemen met de nav maar weet nu hoe ik nu verder moet.
+  - Alle vragen zijn beantwoord.
+  - Code zag er goed uit.
 
 </details>
 

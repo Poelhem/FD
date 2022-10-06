@@ -14,12 +14,13 @@ button, summary {
 
 
 /*********************/
-/* CUSTOM PROPERTIES */
+/* GENERAL STYLING */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#FFF;
+	--color-background:#ed1c24;
+	--color-accent: #490e00;
+	--font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -36,4 +37,64 @@ body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header > nav > ul {
+	color:var(--color-accent);
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+footer > p {
+	color:var(--color-text);
+}
+
+footer > nav > p {
+	color:var(--color-text);
+}
+
+p {
+	color:var(--color-accent);
+}
+
+ol {
+	color:var(--color-accent);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+button {
+	color: var(--color-background);
+	border-radius: 2em;
+	padding: 1em;
+	border-style: none;
+}
+
+#logo {
+	width: 148px;
+	height: 68px;
+}
+
+#producten {
+	width: 200px;
+	height: 150px;
+	margin: 0px 20px 14px;
+}
+
+#background {
+	max-width: 768px
+}
+
 
