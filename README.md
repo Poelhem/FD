@@ -150,11 +150,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Maeve      | Tess         | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Wanneer moet je welke css selectoren gebruiken? | Moet je bij elke section beginnen met een h1? | en ik dit    | en dan ik dat    |
+  | Hoe deel je de stylesheet logisch in? | Wanneer moet je welke css selectoren gebruiken? | nog een punt | dit wil ik zeker |
+  | Mag je id's bij img's gebruiken? | ...                | ...          | ...              |
 
 
   ### Verslag van meeting

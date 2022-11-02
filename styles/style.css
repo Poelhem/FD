@@ -11,8 +11,6 @@ button, summary {
 
 
 
-
-
 /*********************/
 /* GENERAL STYLING */
 /*********************/
@@ -20,11 +18,9 @@ button, summary {
 	--color-text:#FFF;
 	--color-background:#ed1c24;
 	--color-accent: #490e00;
-	--font-family: Arial, Helvetica, sans-serif;
+	--font-family: Arial, Helvetica, sans-serif;	
+	--font-family-p:  Jua, sans-serif;
 }
-
-
-
 
 
 /****************/
@@ -36,6 +32,7 @@ button, summary {
 body {
   color:var(--color-text);
   background-color:var(--color-background);
+  margin: 0em;
 }
 
 header {
@@ -48,53 +45,139 @@ header > nav > ul {
 	color:var(--color-accent);
 }
 
-footer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+header > nav {
+	font-family: Jua, sans-serif;
 }
 
-footer > p {
-	color:var(--color-text);
-}
-
-footer > nav > p {
-	color:var(--color-text);
-}
-
-p {
-	color:var(--color-accent);
-}
-
-ol {
-	color:var(--color-accent);
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-
-
-button {
+header > ul li button {
 	color: var(--color-background);
 	border-radius: 2em;
 	padding: 1em;
 	border-style: none;
 }
 
-#logo {
-	width: 148px;
-	height: 68px;
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	color: #faf0dd;
 }
 
-#producten {
-	width: 200px;
-	height: 150px;
-	margin: 0px 20px 14px;
+footer > ul li a {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 23px;
+	font-size: 16px;
 }
 
-#background {
-	max-width: 768px
+footer > ul li p {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 23px;
+	font-size: 16px;
 }
+
+footer > button {
+	background-color: #ed1c24;
+	color: var(--color-text)
+}
+
+footer > ul {
+	padding-left: 0em;
+}
+
+footer > h1 {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 34px;
+	font-size: 28px;
+}
+
+footer > ul li:nth-of-type(4) a {
+	background-color: #faf0dd;
+	color: var(--color-background);
+	border-radius: 2em;
+	padding: 1em;
+	border-style: none;
+	font-family: Jua, sans-serif;
+	font-weight: 400;
+	line-height: 23px;
+	font-size: 20px;
+}
+
+footer > nav {
+	background-color: #d09334;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	padding: 1em 2.3em;
+	margin: 0em;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+footer > nav ul {
+	padding-left: 0em;
+}
+
+footer > nav ul li a {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+footer > nav p {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 18px;
+	font-size: 13px;
+}
+
+
+footer > nav a button {
+	background-color: var(--color-background);;
+	color: white;
+	padding: 0.7em 1.3em;
+	border-style: none;
+	font-weight: 400;
+	line-height: 16px;
+	font-size: 16px;
+}
+
+
+
+
+
+h1, h2 {
+    font-family: 'Jua', sans-serif;
+}
+
+p {
+	color:var(--color-accent);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul > li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:var(--color-text);
+}
+
+img {
+	width: 100%;
+}
+
+
+
 
 

@@ -1,0 +1,162 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  button, summary {
+      cursor: pointer;
+  }
+  
+/*********************/
+/* GENERAL STYLING */
+/*********************/
+:root {
+	--color-text:#FFF;
+	--color-background:#ed1c24;
+	--color-accent: #490e00;	
+}
+
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  body {
+    color:var(--color-text);
+    background-color:var(--color-background);
+    background-image: url("../images/header.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    margin: 0em;
+  }
+
+  main > section h1 {
+    color: white;
+    margin: 0px 0px 30px;
+    text-align: center;
+    font-weight: 400;
+	line-height: 48px;
+	font-size: 33px;
+  }
+
+  main > section p {
+    padding: 0em 1.7em 3em;
+    text-align: center;
+    font-weight: 100;
+	line-height: 23px;
+	font-size: 16px;
+  }
+
+  main > section img {
+    width: 100%;
+  }
+
+  main > section ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 0em;
+    margin: 0em;
+    background-image: linear-gradient(to right, #d09334 50%, #ed1c24 50%);
+  }
+
+  main > section ul li {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  main > section ul li:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+  }
+
+  main > section ul li:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  main > section ul li:nth-of-type(3) {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  main > section ul li:nth-of-type(4) {
+    grid-column-start: 2;
+    grid-row-start: 4;
+  }
+
+  main > section ul li:nth-of-type(5) {
+    grid-column-start: 1;
+    grid-row-start: 5;
+  }
+
+  main > section ul li:nth-of-type(6) {
+    grid-column-start: 2;
+    grid-row-start: 6;
+  }
+
+  main > section ul li:nth-of-type(7) {
+    grid-column-start: 1;
+    grid-row-start: 7;
+  }
+
+  main > section ul li:nth-of-type(8) {
+    grid-column-start: 2;
+    grid-row-start: 8;
+  }
+
+
+  main > section ul li h2 {
+    margin: 1em 0em 0.5em;
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 50px;
+    font-stretch: ultra-expanded;
+  }
+
+  main > section ul li h3{
+    margin: 1em;
+	font-weight: 100;
+	line-height: 23px;
+	font-size: 16px;
+  }
+
+
+
+  ul:nth-of-type(1)::before {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 345px;
+    left: 47.3%;
+    border-radius: 50%;
+  }  
+
+  main > section ul::after {
+    content: '';
+    position: absolute;
+    width: 0.2em;
+    height: 500.1vh;
+    display: flex;
+    background-color: white;
+    top: 52%;
+    left: 49.6%;
+  }
+  
+  main > section ul::before {
+    content: '';
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50px;
+    display: flex;
+    top: 30%;
+    left: 45%;
+  }
