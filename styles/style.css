@@ -35,6 +35,9 @@ body {
   margin: 0em;
 }
 
+
+/* header */
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -49,14 +52,17 @@ header > nav {
 	font-family: Jua, sans-serif;
 }
 
-header > ul li button {
-	color: var(--color-background);
-	border-radius: 2em;
-	padding: 1em;
-	border-style: none;
+header > ul {
+    padding-left: 1em;
+}
+
+header ul li a img {
+	width: 146px;
+	height: 68px;
 }
 
 
+/* footer */
 
 footer {
 	display: flex;
@@ -67,49 +73,64 @@ footer {
 	color: #faf0dd;
 }
 
-footer > ul li a {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 23px;
-	font-size: 16px;
-}
-
-footer > ul li p {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 23px;
-	font-size: 16px;
-}
-
-footer > button {
-	background-color: #ed1c24;
-	color: var(--color-text)
-}
-
 footer > ul {
-	padding-left: 0em;
+	padding: 0em 0em 3.5em;
 }
 
-footer > h1 {
+footer ul li a {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 23px;
+	font-size: 16px;
+}
+
+footer ul li h1 {
 	color: #faf0dd;
 	font-weight: 400;
 	line-height: 34px;
-	font-size: 28px;
+	font-size: 24px;
+	transform: scaleX(0.9);
+	margin: 0px 0px 11px;
+}
+
+footer ul li p {
+	color: #faf0dd;
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 15px;
+	margin: 0px 30px 27px;
+}
+
+footer > ul li:nth-of-type(4) p {
+	margin-bottom: 38px;
 }
 
 footer > ul li:nth-of-type(4) a {
 	background-color: #faf0dd;
 	color: var(--color-background);
 	border-radius: 2em;
-	padding: 1em;
+	padding: 1.1em 4em 1.1em 1.6em;
 	border-style: none;
 	font-family: Jua, sans-serif;
 	font-weight: 400;
 	line-height: 23px;
-	font-size: 20px;
+	font-size: 17px;
+	transform: scaleX(0.9);
+	margin: 30px 0px 30px;
 }
 
-footer > nav {
+footer ul li img {
+	width: 229px;
+    height: 103px;
+	margin: 2.8em 0px 26.5px;
+}
+
+footer button {
+	background-color: #ed1c24;
+	color: var(--color-text);
+}
+
+footer nav {
 	background-color: #d09334;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
@@ -121,26 +142,25 @@ footer > nav {
 	flex-direction: column;
 }
 
-footer > nav ul {
+footer nav ul {
 	padding-left: 0em;
 }
 
-footer > nav ul li a {
+footer nav ul li a {
 	color: #faf0dd;
 	font-weight: 400;
 	line-height: 20px;
 	font-size: 13px;
 }
 
-footer > nav p {
+footer nav p {
 	color: #faf0dd;
 	font-weight: 400;
 	line-height: 18px;
 	font-size: 13px;
 }
 
-
-footer > nav a button {
+footer nav a button {
 	background-color: var(--color-background);;
 	color: white;
 	padding: 0.7em 1.3em;
@@ -153,6 +173,7 @@ footer > nav a button {
 
 
 
+/* idk */
 
 h1, h2 {
     font-family: 'Jua', sans-serif;
@@ -164,7 +185,7 @@ p {
 }
 
 
-ul > li {
+ul li {
 	list-style: none;
 }
 
@@ -176,8 +197,3 @@ a {
 img {
 	width: 100%;
 }
-
-
-
-
-
