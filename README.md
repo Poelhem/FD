@@ -223,7 +223,7 @@
   ### Dit ging goed/Heb ik geleerd: 
   Flexen ging goed, al helemaal bij de section onze producten en twix straw challenge.
 
-  <img src="readme-images/dummy-flexen.png" width="375px" alt="top">
+  <img src="readme-images/flexen.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
