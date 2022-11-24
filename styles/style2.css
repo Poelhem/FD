@@ -79,7 +79,7 @@ main section h1 {
 }
 
 main section p {
-  font-weight: 100;
+  font-weight: 500;
 	font-size: clamp(0.9em, 2.5vw, 1.25em);
   text-align: center;
   color: var(--color-background);

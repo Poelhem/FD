@@ -1,12 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
 
 
 
@@ -23,7 +15,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je focus:
   Responsive
- 
 </details>
 
 
@@ -36,7 +27,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  <a href="https://www.twix.nl/>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Twix - home pagina 
@@ -45,7 +36,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Twix - historie pagina   
   <img src="readme-images/sstwixhistorie.png" width="375px" alt="pagina over de geschiedenis van Twix">
- 
 </details>
 
 
@@ -56,18 +46,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Goed toegankelijke website. 
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Screenreader is duidelijk en neemt je er goed doorheen. 
 
   #### Muis en Toetsenbord 
   Je tabt er goed doorheen, alles wordt op een logisch volgorde geselecteerd. Alleen zijn er geen sates, die zouden een handige toevoeging zijn. 
 
-  Om dit op te lossen kan je states toe voegen.
+  Om dit op te lossen kan je states toevoegen.
 
   #### Motoriek (shocks, elastiekjes)
   In de footer staan de linkjes in de navigatie behoorlijk dicht op elkaar en is de tekst redelijk klein, je moet als je motorieke problemen hebt behoorlijk secuur klikken. Je kan makkelijk perongeluk op een ander link klikken. 
@@ -78,7 +65,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Met low contrast zijn sommige teksten niet even goed te lezen. Komt door de lettergrootte en de kleur van de tekst in combinatie met de achtergrondkleur of foto. 
 
   Om dit op te lossen kan je de lettergrootte en/of de tekstkleur/font-weight aanpassen.
-
 </details>
 
 
@@ -98,7 +84,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/breakdownschets4.png" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -114,13 +99,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Goed opweg met de code, nu verder de html afschrijven. HTML schrijven ging goed, had moeite met de de nav maar heeft Jeffrey mij mee kunnen helpen. Verder een paar kleine puntjes die ik moest aanpassen, code was verder goed. Was als laatste dus hadden helaas een beetje kort de tijd maar hebben de breakdownschetsen door kunnen nemen en de code ook.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | Maeve      | Nienke          | Tess   | Thijs       |
-  | ---            | ---                | ---          | ---              |
-  | Is de sectie 'onze producten' en 'history' een unorderd list of allemaal secties binnen de sectie?  | Verschillende stukken code wordt gezien als link dat doorlinkt naar mijn andere html pagina, in de code kunnen we dit niet vinden             | Moet ik de agenda en de filterfunctie werkend krijgen en zo niet hoe moet ik dit laten zien?   | en dan ik dat    |
-  | en dat ook nog | Is de introductie afbeelding en h1 nog een stuk van de header of niet? | nog een punt | dit wil ik zeker |
-  | ...            | Kan een h2 boven een h1 in de html omdat de h1 belangrijker is maar visueel wel onderin staat?                | ...          | ...              |
+  Vragen:
+
+  - Is de sectie 'onze producten' en 'history' een unorderd list of allemaal secties binnen de sectie?  
+  - Hoe kan ik de navigatie handig indelen?       
 
 
   ### Verslag van meeting
@@ -130,7 +113,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Had problemen met de nav, hoe ik die moest indelen maar weet nu hoe ik nu verder moet.
   - Alle vragen zijn beantwoord.
   - Code zag er goed uit.
-
 </details>
 
 
@@ -147,23 +129,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Vragen:
 
-  | Maeve      | Tess         | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | Wanneer moet je welke css selectoren gebruiken? | Moet je bij elke section beginnen met een h1? | en ik dit    | en dan ik dat    |
-  | Hoe deel je de stylesheet logisch in? | Wanneer moet je welke css selectoren gebruiken? | nog een punt | dit wil ik zeker |
-  | Mag je id's bij img's gebruiken? | ...                | ...          | ...              |
+  - Wanneer moet je welke css selectoren gebruiken?
+  - Hoe deel je de stylesheet logisch in?
+  - Mag je id's gebruiken bij images?
 
 
   ### Verslag van meeting
-  Bij deze meeting hebben we problemen als een groep besproken. Niet 
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  Bij deze meeting hebben we problemen als een groep besproken. Niet iedereen persoonlijk. We hebben het gehad over css selectoren en hoe je een een background image aan je header kan toevoegen. 
 </details>
 
 
@@ -187,16 +161,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Om dit op te lossen heb ik hover states toegevoegd. 
 
+  <img src="readme-images/hover.png" width="375px" alt="hover">
+  <img src="readme-images/hoverstate.png" width="375px" alt="hoverstate">
+
   #### Motoriek (shocks, elastiekjes)
   In de footer staan de linkjes in de navigatie behoorlijk dicht op elkaar en is de tekst redelijk klein, je moet als je motorieke problemen hebt behoorlijk secuur klikken. Je kan makkelijk perongeluk op een ander link klikken. 
 
   Om dit op te lossen heb ik de meer witruimte tussen de linkjes gecreëerd en de font groter gemaakt. 
-
+  
+  <img src="readme-images/footer.png" width="375px" alt="footer">
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Met low contrast zijn sommige teksten niet even goed te lezen. Komt door de lettergrootte en de kleur van de tekst in combinatie met de achtergrondkleur of foto. 
+  Met low contrast zijn sommige teksten niet even goed te lezen. Komt door de lettergrootte/dikte en de kleur van de tekst in combinatie met de achtergrondkleur of foto. 
 
-  Om dit op te lossen heb ik heb ik de de lettergrootte en tekstkleur aangepast.
+  Om dit op te lossen heb ik heb ik de de fontweight en tekstkleur aangepast.
+
+  <img src="readme-images/p.png" width="375px" alt="p">
 
 </details>
 
@@ -210,21 +190,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben zeker op weg maar er moet nog veel gebeuren, zijn ook een aantal dingen waar ik tegen aan loop. 
 
 
   ### Agenda voor meeting
   
-  - 
+  Vragen
+  - Hoe maak ik de tijdlijn op de historie pagina?
+  - Hoe zorg ik ervoor dat foto's worden verborgen op een website. 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  Jeffrey is door mijn pagina gelopen en heeft getest of het toegankelijk is en gekeken of de code semantisch correct is. Heb verder antwoord op mijn vragen gekregen en kan weer verder aan de slag. 
 </details>
 
 
@@ -237,13 +213,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/karakteristiek1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/karakteristiek2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/karakteristiek3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/karakteristiek4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/karakteristiek5.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Flexen ging goed, al helemaal bij de section onze producten en twix straw challenge.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/dummy-flexen.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -251,7 +231,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De cookie settings button rechts onderin laten uitlijnen. Stelde het eerlijk gezegd steeds uit en nu ik nog 
   beperkt de tijd heb voor dat ik het moet inleveren ga ik het niet meer proberen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/challenge.png" width="375px" alt="bummer">
+
+  Wat ik lastig vond was de tijdlijn op de historie pagina. Ik had een tip gekregen van Jeffrey hoe ik dat kon aanpakken en dat is mij ook aardig gelukt. Alleen was die manier niet responsive en ik koos zelf voor die uitwerking. Vervolgens heeft Sanne mij geholpen en is het gelukt met behulp van Sanne.
+
+  <img src="readme-images/tijdlijn.png" width="375px" alt="tijdlijn">
 </details>
 
 
@@ -270,7 +254,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. https://css-tricks.com/ - wanneer gebruik ik justify content of align-items. 
   3. HTML/CSS boek van Jon Duckett - opfrisser voor de basics.
   4. https://nekocalc.com/px-to-em-converter - om px naar em om te zetten
-  5. Sanne & Jeffrey ;)
+  5. Nienke - heeft me geholpen met mijn hamburger menu
+  6. Sanne & Jeffrey ;)
 
 
 </details>
