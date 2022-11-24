@@ -1,137 +1,117 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-    box-sizing:border-box;  
-  }
-  
-  button, summary {
-    cursor: pointer;
-  }
-  
-/*********************/
-/* GENERAL STYLING */
-/*********************/
-:root {
-	--color-text:#FFF;
-	--color-background:#ed1c24;
-	--color-accent: #490e00;	
-}
+/*********/
+/* BODY */
+/********/
 
-  
-  
-/****************/
-/* JOUW STYLING */
-/****************/
-  
-/* body */
-  
 body {
-  color:var(--color-text);
   margin: 0em;
 
   background-image: url("../images/header.jpg");
-  background-size:  max(300vw, 120em) auto;
+  background-size:  max(340vw, 130em) auto;
   background-position: center 0%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+
+  color: var(--color-text);
 }
 
 
 
-/* header */
+
+
+
+
+
+
+
+/*********************/
+/*  GENERAL STYLING  */
+/*********************/
+
+:root {
+  --color-text:#FFF;
+  --color-text-x: #faf0dd;
+  --color-background: #ed1c24;
+  --color-background-x: #edb451;
+  --color-accent: #490e00;
+  --font-family: Arial, Helvetica, sans-serif;	
+  --font-family-p:  Jua, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* HEADER */
+/**********/
 
 header { 
-  height: min(35vw, 20em);
+  padding-bottom: 5em;
 }
 
+
+
+
+
+
+
+
+
+
+/********/
+/* MAIN */
+/********/
+
+/* general */
+
 main section h1 {
-  color: var(--color-background);
-  margin: 0px 0px 28px;
-  text-align: center;
   font-weight: 700;
-	line-height: 48px;
-  font-size: 33px;
+  font-size: clamp(2em, 6vw, 3.1em);
   transform: scaleX(0.9);
+  text-transform: uppercase;
+  color: var(--color-background);
+  margin: 0em 0em 0.5em;
+  text-align: center;
 }
 
 main section p {
-  color: black;
-  padding: 0em 1.7em 5em;
-  text-align: center;
   font-weight: 100;
-	line-height: 23px;
-	font-size: 15px;
+	font-size: clamp(0.9em, 2.5vw, 1.25em);
+  text-align: center;
+  color: var(--color-background);
+  max-width: 25em;
+  padding: 0em 1.7em 7em;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 main section img {
   width: 100%;
 }
 
-main section ul {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  text-align: center;
-  padding: 0em 0em 6.5em;
-  margin: 0em;
-  background-image: linear-gradient(
-    to right, 
-    #edb451 calc(50% - 2px),
-    white calc(50% - 2px) calc(50% + 2px),
-    #ed1c24 calc(50% + 2px)
-  );
-  box-shadow: 0 4px 0 white;
-  position: relative;
-  }
-
-main section ul::after {
-  content:"";
-  position: absolute;
-
-  bottom:calc(100% - 1px);
-  left:0;
-  right:0;
-  height:10vw;
-
-  background-image: linear-gradient(
-    to right, 
-    #edb451 calc(50%),
-    #ed1c24 calc(50%)
-    );
-
-    clip-path: polygon(0% 0%, 50% 100%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
-
-  }
 
 
-main section ul::before {
-  content:"";
 
-  position: absolute;
-  top: -.5em;
-  left: calc(50% - .5em);
+/* tijdlijn section */
 
-  width: 1em;
-  height: 1em;
-
-  background-color: white;
-  border-radius: 50%;
-
-  z-index:200;
-}  
+/* grid tijdlijn */
 
 main section ul li {
+  font-family: var(--font-family);
   padding: 1em;
-  font-family: Arial, Helvetica, sans-serif;
   position: relative;
-
   display: grid;
   grid-template-rows:13em auto auto;
-  }
+}
 
 main section ul li:nth-of-type(1) {
   grid-column-start: 1;
   grid-row-start: 1;
-
 }
 
 main section ul li:nth-of-type(2) {
@@ -170,58 +150,83 @@ main section ul li:nth-of-type(8) {
 }
 
 
-main section ul li h2 {
-  margin: 0em 0em 0.5em;
-	font-weight: 700;
-	line-height: 50px;
-	font-size: 50px;
-  transform: scaleX(0.9);
-}
+/* twee achtergrond vlakken */
 
-main section ul li h3{
-  margin: 1em;
-	font-weight: 100;
-	line-height: 23px;
-	font-size: 16px;
-}
-
-main section ul li img {
-  place-self:center;
+main section ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  padding: 0em 0em 6.5em;
+  margin: 0em;
+  background-image: linear-gradient(
+    to right, 
+    #edb451 calc(50% - 0.125em),
+    white calc(50% - 2px) calc(50% + 0.125em),
+    #ed1c24 calc(50% + 0.125em)
+  );
+  box-shadow: 0 4px 0 white;
   position: relative;
-  z-index: 2;
+}
+
+main section ul::after {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 0.063em);
+  left: 0;
+  right: 0;
+  height: 10vw;
+  background-image: linear-gradient(
+    to right, 
+    #edb451 calc(50%),
+    #ed1c24 calc(50%)
+    );
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
 }
 
 
-main section ul li::after {
-  content: '';
-  position: absolute;
-  top: 7em;
+/* bolletje's */
 
+main section ul::before { 
+  content:"";
+  position: absolute;
+  top: -0.5em;
+  left: calc(50% - .5em);
   width: 1em;
   height: 1em;
-    
+  background-color: white;
+  border-radius: 50%;
+  z-index: 200;
+}  
+
+main section ul li::after {
+  content: "";
+  position: absolute;
+  top: 7em;
+  width: 1em;
+  height: 1em;
   background-color: white;
   border-radius: 50%;    
 }
 
-
 main section ul li:nth-of-type(odd)::after {
-  right:-0.5em;   
+  right: -0.5em;   
 }
 
 main section ul li:nth-of-type(even)::after {
-  left:-0.5em;  
+  left: -0.5em;  
 }
 
 
+/* streepje  */
+
 main section ul li::before {
-  content: '';
+  content: "";
   position: absolute;
-  top: calc(7.5em - 2px);
+  top: calc(7.5em - 0.125em);
     
 
   width: 50%;
-  height: 4px;
+  height: 0.25em;
     
   background-color: white; 
 }
@@ -235,50 +240,84 @@ main section ul li:nth-of-type(even)::before {
 }
 
 
- 
+/* jaartal & uitleg */
+
+main section ul li h2 {
+	font-weight: 700;
+	font-size: clamp(3.1em, 6vw, 3.75em);
+  transform: scaleX(0.9);
+  text-transform: uppercase;
+  margin: 0em 0em 0.5em;
+}
+
+main section ul li h3{
+	font-weight: 100;
+	line-height: 1.4em;
+	font-size: clamp(1em, 3vw, 1.25em);
+  max-width: 20em; 
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
 
 
+/* images per jaar */
 
-
-
-
+main section ul li img {
+  place-self:center;
+  position: relative;
+  z-index: 2;
+}
 
 main section ul li:first-of-type img {
-  width: 125px;
-  height: 57px;
+  min-width: 7.8em;
+  min-height: 3.5;
+  width: 35%;
 }
   
 main section ul li:nth-of-type(2) img {
-  width: 124px;
-  height: 130px;
+  min-width: 7.8em;
+  min-height: 8.1em;
+  width: 30%;
+  margin-bottom: 3em;
 }
 
 main section ul li:nth-of-type(3) img {
-  width: 126px;
-  height: 190px;
+  min-width: 7.9em;
+  min-height: 11.9em;
+  width: 28%;
+  margin-bottom: 8em;
 }
 
 main section ul li:nth-of-type(4) img {
-  width: 124px;
-  height: 32px;
+  min-width: 7.75em;
+  min-height: 2em;
+  width: 35%;
 }
 
 main section ul li:nth-of-type(5) img {
-  width: 124px;
-  height: 125px;
+  min-width: 7.75em;
+  min-height: 7.8;
+  width: 30%;
+  margin-bottom: 5em;
 }
 
 main section ul li:nth-of-type(6) img {
-  width: 125.5px;
-  height: 125.5px;
+  min-width: 7.8em;
+  min-height: 7.8em;
+  width: 30%;
+  margin-bottom: 3em;
 }
   
 main section ul li:nth-of-type(7) img {
-  width: 125px;
-  height: 57px;
+  min-width: 7.8em;
+  min-height: 3.56em;
+  width: 35%;
 }
 
 main section ul li:nth-of-type(8) img {
-  width: 125px;
-  height: 57px;
+  min-width: 7.8em;
+  min-height: 3.5em;
+  width: 30%;
 }
+
