@@ -1,33 +1,77 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 
 button, summary {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 
 
+
+
+
+
+
+
+
 /*********************/
-/* GENERAL STYLING */
+/*  GENERAL STYLING  */
 /*********************/
+
 :root {
-	--color-text:#FFF;
-	--color-background:#ed1c24;
-	--color-accent: #490e00;
-	--font-family: Arial, Helvetica, sans-serif;	
-	--font-family-p:  Jua, sans-serif;
+  --color-text:#FFF;
+  --color-text-x: #faf0dd;
+  --color-background: #ed1c24;
+  --color-background-x: #edb451;
+  --color-accent: #490e00;
+  --font-family: Arial, Helvetica, sans-serif;	
+  --font-family-p:  Jua, sans-serif;
 }
+
+h1, h2 {
+  font-family: var(--font-family-p);
+}
+  
+p {
+  font-family: var(--font-family);
+  color: var(--color-accent);
+}  
+  
+ul li {
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+  color:var(--color-text);
+}
+  
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+
+/* **** */
+/* body */
+/* **** */
 
 body {
   color:var(--color-text);
@@ -36,164 +80,297 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+/* ****** */
 /* header */
+/* ****** */
 
 header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-header > nav > ul {
-	color:var(--color-accent);
+header ul {
+  padding-left: 1em;
 }
 
-header > nav {
-	font-family: Jua, sans-serif;
+header a img {
+  width: 9.1em;
+  height: 4.25em;
+  margin: 1.5em;
 }
 
-header > ul {
-    padding-left: 1em;
+header button {
+  background-color: unset;
+  border: none;
+  z-index: 55;
 }
 
-header ul li a img {
-	width: 146px;
-	height: 68px;
+header button img {
+  width: 3.5em;
+  height: 3.5em;
+  margin: 0em 1.5em;
 }
 
 
+
+
+
+/* nav */
+
+header nav {
+  font-family: var(--font-family-p);
+  background-color: var(--color-background-x);
+  text-align: center;
+  padding-top: 16em;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: none;
+  z-index: 1;
+}
+
+nav.toonMenu {
+	display:unset;
+}
+  
+header > button img:last-of-type {
+	display: none;
+}
+  
+button.swapImg img:last-of-type {
+	display: unset;
+}
+  
+button.swapImg img:first-of-type {
+	display: none;
+}
+
+header nav ul {
+  color:var(--color-accent);
+}
+
+header nav ul li a {
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 80px;
+  transform: scaleX(0.9);
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+/* ****** */
 /* footer */
+/* ****** */
 
 footer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	text-align: center;
-	color: #faf0dd;
+  text-align: center;
+  color: var(--color-text-x)
 }
 
 footer > ul {
-	padding: 0em 0em 3.5em;
+  padding: 2em 0em 3.5em;
 }
 
-footer ul li a {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 23px;
-	font-size: 16px;
+footer > ul li {
+  margin: 0em 0.7em 0em;
 }
 
-footer ul li h1 {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 34px;
-	font-size: 24px;
-	transform: scaleX(0.9);
-	margin: 0px 0px 11px;
+footer > ul li a {
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 16px;
+  color: var(--color-text-x)
 }
 
-footer ul li p {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 22px;
-	font-size: 15px;
-	margin: 0px 30px 27px;
+footer > ul li h2 {
+  font-weight: 400;
+  line-height: 2.1em;
+  font-size: 1.5em;
+  transform: scaleX(0.9);
+  text-transform: uppercase;
+  color: var(--color-text-x);
+  margin: 1em 0em 0.5em;
 }
+
+footer > ul li p {
+  font-weight: 400;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  color: var(--color-text-x);
+  margin: auto;
+}
+
 
 footer > ul li:nth-of-type(4) p {
-	margin-bottom: 38px;
+  margin-bottom: 1.6em;
 }
+
+
+/* neem contact op button */
 
 footer > ul li:nth-of-type(4) a {
-	background-color: #faf0dd;
-	color: var(--color-background);
-	border-radius: 2em;
-	padding: 1.1em 4em 1.1em 1.6em;
-	border-style: none;
-	font-family: Jua, sans-serif;
-	font-weight: 400;
-	line-height: 23px;
-	font-size: 17px;
-	transform: scaleX(0.9);
-	margin: 30px 0px 30px;
+  font-family: var(--font-family-p);
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 17px;
+  transform: scaleX(0.9);
+  display: inline-flex;
+  align-items: center;
+	  
+  gap: 1em;
+  background-color: var(--color-text-x);
+  color: var(--color-background);
+  text-decoration: none;
+  text-transform: uppercase;
+	  
+  padding: 0.5em 1em;
+  border-radius: 3em;
+  margin: 0.5em 0em;
 }
 
-footer ul li img {
-	width: 229px;
-    height: 103px;
-	margin: 2.8em 0px 26.5px;
+
+/* neem contact op button - icoontje */
+
+footer > ul li:nth-of-type(4) a::after {
+  content: "";
+	
+  color: yellow;
+  background-color: var(--color-background);
+  display: block;
+	
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+	
+  box-shadow: inset 0 0 0 .15em white;
+	
+  /* snap ik niet - geen vragen over stellen - ok */
+  background-image:conic-gradient(
+	from -45deg at 50% 50%,
+	transparent 0deg 270deg,
+    white 270deg
+  );
+	
+  background-size: .6em 1.5em;
+  background-repeat: no-repeat;
+  background-position:.65em center;
 }
 
-footer button {
-	background-color: #ed1c24;
-	color: var(--color-text);
+footer > ul li:nth-of-type(4) a:hover {
+  background-color: var(--color-background-x);
+  color: var(--color-text-x);
 }
+
+footer > ul li img {
+  width: 14.3em;
+  height: 6.4em;
+  margin: 2.8em 0em 1.7em;
+}
+
+footer > ul li a img {
+  width: 5em;
+  height: 6.5em;
+  margin: 0em;
+}
+
+@media (min-width: 68em) {
+  footer > ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer > ul li + li {
+    width: 16em;
+  }
+}
+
+@media (max-width: 68em) {
+   footer > ul p {
+    max-width: 25em;
+   }
+}
+
+
+/* footer navigatie */
 
 footer nav {
-	background-color: #d09334;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
-	padding: 1em 2.3em;
-	margin: 0em;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	flex-direction: column;
+  font-family: var(--font-family);
+  font-size: 0.8em;
+  background-color: var(--color-background-x);
+  padding: 1em 2.3em;
+  margin: 0em;
+  display: flex;
+  justify-content: center;
+  text-align: center;	
+  flex-direction: column;
 }
 
 footer nav ul {
-	padding-left: 0em;
+  padding-left: 0em;
 }
 
 footer nav ul li a {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 20px;
-	font-size: 13px;
+  font-weight: 400;
+  line-height: 1.25em;
+  font-size: 0.9em;
+  color: var(--color-text-x);
+}
+
+footer nav ul li {
+  margin: 0.6em;
 }
 
 footer nav p {
-	color: #faf0dd;
-	font-weight: 400;
-	line-height: 18px;
-	font-size: 13px;
-}
-
-footer nav a button {
-	background-color: var(--color-background);;
-	color: white;
-	padding: 0.7em 1.3em;
-	border-style: none;
-	font-weight: 400;
-	line-height: 16px;
-	font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1em;
+  font-size: 0.9em;
+  color: var(--color-text-x);
 }
 
 
+/* cookie settings button */
 
-
-/* idk */
-
-h1, h2 {
-    font-family: 'Jua', sans-serif;
+footer nav button {
+  font-weight: 400;
+  line-height: 1em;
+  font-size: 1em;
+  background-color: var(--color-background);
+  color: white;
+  padding: 0.7em 1.3em;
+  margin: 0em;
+  border-style: none;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
 }
 
-p {
-	color:var(--color-accent);
-	font-family: Arial, Helvetica, sans-serif;
+footer nav button:hover {
+  background-color: white;
+  color: var(--color-background);
 }
 
-
-ul li {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color:var(--color-text);
-}
-
-img {
-	width: 100%;
+@media (min-width: 70em) {
+  footer nav {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+  }
+  footer nav ul {
+    display: flex;
+  }
 }

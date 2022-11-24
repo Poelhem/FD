@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/sstwixhome.png" width="375px" alt="omschrijving van de pagina">
+  Twix - home pagina 
+  <img src="readme-images/ssttwixhome.png" width="375px" alt="landingspagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/sstwixhistorie.png" width="375px" alt="omschrijving van de pagina">
+  Twix - historie pagina   
+  <img src="readme-images/sstwixhistorie.png" width="375px" alt="pagina over de geschiedenis van Twix">
  
 </details>
 
@@ -65,23 +65,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Je tabt er goed doorheen, alles wordt op een logisch volgorde geselecteerd. Alleen zijn er geen sates, die zouden een handige toevoeging zijn. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Om dit op te lossen kan je states toe voegen.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  In de footer staan de linkjes in de navigatie behoorlijk dicht op elkaar en is de tekst redelijk klein, je moet als je motorieke problemen hebt behoorlijk secuur klikken. Je kan makkelijk perongeluk op een ander link klikken. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Om dit op te lossen kan je meer witruimte tussen de linkjes creëren en de font groter maken. 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met low contrast zijn sommige teksten niet even goed te lezen. Komt door de lettergrootte en de kleur van de tekst in combinatie met de achtergrondkleur of foto. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om dit op te lossen kan je de lettergrootte en/of de tekstkleur/font-weight aanpassen.
 
 </details>
+
 
 
 
@@ -125,10 +124,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ging per persoon de voortgang bespreken, dus iedereen stelde los zijn/haar vragen.
 
   - Was als laatste dus hadden helaas een beetje kort de tijd maar hebben de breakdownschetsen door kunnen nemen en de code ook.
-  - Had problemen met de nav maar weet nu hoe ik nu verder moet.
+  - Had problemen met de nav, hoe ik die moest indelen maar weet nu hoe ik nu verder moet.
   - Alle vragen zijn beantwoord.
   - Code zag er goed uit.
 
@@ -144,7 +143,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Vond het lastig om een begin te maken met CSS, wist niet zo goed waar ik moest beginnen. Voelde een beetje dat ik zo veel nog moest doen dat ik niet zo goed wist waar ik moest beginnen. Had wat verduidelijking nodig voor de css selectoren. 
 
 
   ### Agenda voor meeting
@@ -158,7 +157,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Bij deze meeting hebben we problemen als een groep besproken. Niet 
 
   - punt 1
   - punt 2
@@ -175,32 +174,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij sommige afbeeldingen was ik vergeten bij alt een beschrijving toe te voegen. Ook had ik afbeeldingen en dan H1 of H2.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om dit op te lossen heb ik bij elke afbeelding een beschrijving gezet en is de volgorde van afbeelding en kopje nu goed.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Je tabt er goed doorheen, alles wordt op een logisch volgorde geselecteerd. Alleen zijn er geen sates, die zouden een handige toevoeging zijn. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Om dit op te lossen heb ik hover states toegevoegd. 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  In de footer staan de linkjes in de navigatie behoorlijk dicht op elkaar en is de tekst redelijk klein, je moet als je motorieke problemen hebt behoorlijk secuur klikken. Je kan makkelijk perongeluk op een ander link klikken. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om dit op te lossen heb ik de meer witruimte tussen de linkjes gecreëerd en de font groter gemaakt. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met low contrast zijn sommige teksten niet even goed te lezen. Komt door de lettergrootte en de kleur van de tekst in combinatie met de achtergrondkleur of foto. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om dit op te lossen heb ik heb ik de de lettergrootte en tekstkleur aangepast.
 
 </details>
 
@@ -218,13 +214,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  
+  - 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -256,7 +247,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De Twix straw challenge section heeft een bepaalde achtergrond met patroon die ik achterwege heb gelaten. 
+  De cookie settings button rechts onderin laten uitlijnen. Stelde het eerlijk gezegd steeds uit en nu ik nog 
+  beperkt de tijd heb voor dat ik het moet inleveren ga ik het niet meer proberen. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -272,8 +265,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/ - hoe gebruik ik z-index, hoe gebruik ik Media Queries, 
+     kijken welke selector ik moet gebruiken
+  2. https://css-tricks.com/ - wanneer gebruik ik justify content of align-items. 
+  3. HTML/CSS boek van Jon Duckett - opfrisser voor de basics.
+  4. https://nekocalc.com/px-to-em-converter - om px naar em om te zetten
+  5. Sanne & Jeffrey ;)
+
 
 </details>
